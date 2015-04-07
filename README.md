@@ -66,9 +66,8 @@ Once the PyBluez module is compiled and installed where needed, test the sample 
 Note that the client and the server can run on any Bluetooth-capable system.
 In addition, the role of the machines can be switched at any time.
 
-* Get the bt.py client/server demo code and make it executable.
+* make bt.py executable.
 
-wget http://nwazet.com/.../bt.py
 chmod +x bt.py
 
 * Run the server
@@ -81,10 +80,9 @@ Listening for connections on: 00:1A:7D:DA:71:13
 
 * Run the client on another bluetooth-capable machine.
 
-wget http://nwazet.com/.../bt.py
 chmod +x bt.py
 
-fabien@fabien-desktop:~/Documents/Projects/Bluetooth$ ./bt.py client
+$ ./bt.py client
 BT Discovery...
 BT device name: dev-0, MAC: 00:1A:7D:DA:71:13
 Connecting to first BT device found: dev-0, MAC: 00:1A:7D:DA:71:13
@@ -116,5 +114,4 @@ https://code.google.com/p/pybluez/
 hcitool, auth, rfcomm, obexftp usage notes:
 http://www.pizzhacks.com/bugdrome/2010/12/bluetooth-applications-in-gnulinux-notes/
 http://www.computersolutions.cn/blog/2012/03/bluetooth-notes-for-debian-linux/
-
 
